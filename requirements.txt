@@ -1,0 +1,29 @@
+# Core dependencies
+# requirements.txt
+streamlit==1.28.0
+pandas==2.1.0
+numpy==1.24.3
+chromadb==0.4.15
+sentence-transformers==2.2.2
+torch==2.1.0
+tensorflow==2.14.0
+requests==2.31.0
+python-dotenv==1.0.0
+kaggle==1.5.16
+tqdm==4.66.1
+
+# ML/Deep Learning
+tensorflow>=2.12.0
+torch>=2.0.0
+
+# Utilities
+typing-extensions>=4.5.0
+# For advanced text processing
+nltk>=3.8.1
+
+# For data visualization in Streamlit
+plotly>=5.13.0
+altair>=4.2.2
+
+# For debugging and development
+ipykernel>=6.22.0
