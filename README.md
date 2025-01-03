@@ -31,3 +31,5 @@ streamlit run Q_and_A_medical_dignosis_RAG_streamlit.py
 ```
 ## App Screenshot 
 
+<img src="./ai-research-assitant.png" width="800" height="600">
+
