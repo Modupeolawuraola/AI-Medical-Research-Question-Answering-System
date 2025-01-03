@@ -18,10 +18,12 @@ A RAG (Retrieval-Augmented Generation) system that utilizes Ollama LLM to answer
 ## Installation
 ```bash
 # Clone repo
-git clone 
+git clone https://github.com/Modupeolawuraola/AI-Medical-Research-Question-Answering-System
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Pull Llama2 model
 ollama pull llama2
+```
+## App Screenshot 
