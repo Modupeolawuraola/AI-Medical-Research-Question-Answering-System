@@ -30,3 +30,4 @@ ollama pull llama2
 streamlit run Q_and_A_medical_dignosis_RAG_streamlit.py
 ```
 ## App Screenshot 
+
