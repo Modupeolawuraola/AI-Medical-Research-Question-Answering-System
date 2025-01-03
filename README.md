@@ -25,5 +25,8 @@ pip install -r requirements.txt
 
 # Pull Llama2 model
 ollama pull llama2
+
+#usage
+streamlit run Q_and_A_medical_dignosis_RAG_streamlit.py
 ```
 ## App Screenshot 
