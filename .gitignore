@@ -1,0 +1,43 @@
+#creating a comphensive .gitignore
+#Ignore large files and Vector DB
+cat> .gitignore << EOL
+#Ignore Virtul environment
+**/rag_env/
+rag_env
+
+# Vector DB files
+*.sqlite3
+tests/medical_research_db
+tests/data/
+src/rag/ui/data
+src/rag/ui/medical_research_db
+
+
+#Python build artifiacts
+src/medical_rag.egg-info
+*.pyc
+__pycache__/
+*.py[cod]
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+EOL
