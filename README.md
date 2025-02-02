@@ -1,7 +1,9 @@
 
 
 # AI-Medical-Research-Question-Answering-System
-AI - Medical Research QA System 
+AI - Medical Research QA System :
+Project Objective
+This project aims to create an intelligent question-answering system specifically designed for medical research. It leverages advanced RAG (Retrieval Augmented Generation) technology to provide accurate, research-backed responses to medical queries by accessing and analyzing a comprehensive database of medical research papers and literature.
 
 # Task
 Built RAG (Retrieval-Augmented Generation) system that utilizes Ollama LLM to answer medical research queries with source citations.
@@ -59,6 +61,39 @@ streamlit run streamlit_app.py
 
 <img src="./assests/images/ai-research-assitant.png" width="800" height="600">
 <img src="./assests/images/ai-research-assitant2.png" width="800" height="600">
+
+## Who Can Use This System?
+
+### Healthcare Professionals
+- Medical Doctors seeking quick access to research findings
+- Medical Researchers looking to explore existing literature
+- Healthcare Students studying medical research papers
+- Clinical Trial Coordinators needing to reference similar studies
+
+### Academic Community
+- Medical School Students
+- Research Scholars in healthcare fields
+- University Professors teaching medical courses
+- PhD Candidates conducting literature reviews
+
+## Research Organizations
+- Medical Research Institutes
+- Pharmaceutical Companies
+- Healthcare Technology Companies
+- Clinical Research Organizations
+
+### Healthcare Writers and Communicators
+- Medical Journal Editors
+- Healthcare Content Writers
+- Medical Documentation Specialists
+- Health Education Content Creators
+
+### Benefits for Users
+- Quick access to relevant medical research information
+- Evidence-based responses backed by research papers
+- Time-saving alternative to manual research
+- Ability to explore complex medical topics efficiently
+- Access to comprehensive medical literature analysis
 
 ## Folder structure 
 ```bash
