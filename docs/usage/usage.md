@@ -25,6 +25,7 @@ install ollama : https://ollama.com/download/windows
 # Step5: Pull Llama2 model
 ```bash 
 ollama pull llama2
+
 ```
 
 ## Step6: re-run the setuptool -setup.py and pyproject.toml tool by running the command below

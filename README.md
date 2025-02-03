@@ -56,6 +56,21 @@ python test_rag.py
 
 # Step 8: usage
 streamlit run streamlit_app.py
+
+# Step 9: Using docker to host the app locally on your desktop 
+install docker desktop on your mac or windows system 
+
+verify the installation by running this command 
+docker --version
+
+once its install build your docker  by running the command below 
+docker build -t medical-rag-app -f src/rag/ui/docker/Dockerfile .
+
+run docker with the command below 
+docker run -p 8502:8501 medical-rag-app
+
+NOTE THIS APP can only run locally on your computer except you want to deploy and host on aws ec2 or gcp or digital ocean which cost money 
+
 ```
 ## App Screenshot 
 
