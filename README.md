@@ -67,7 +67,8 @@ once its install build your docker  by running the command below
 docker build -t medical-rag-app -f src/rag/ui/docker/Dockerfile .
 
 run docker with the command below 
-docker run -p 8502:8501 medical-rag-app
+docker run -p 8501 mdeical-rag-app (for port 8501)
+docker run -p 8502:8501 medical-rag-app( for non port 8501)
 
 NOTE THIS APP can only run locally on your computer except you want to deploy and host on aws ec2 or gcp or digital ocean which cost money 
 
